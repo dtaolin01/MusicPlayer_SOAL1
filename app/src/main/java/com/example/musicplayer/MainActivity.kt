@@ -1,4 +1,4 @@
-package com.example.musicplayer // Sesuaikan dengan package project Anda
+package com.example.musicplayer
 
 import android.os.Bundle
 import androidx.activity.ComponentActivity
@@ -9,7 +9,6 @@ class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContent {
-            // Panggil tampilan musik dari file MusicPlayerScreen.kt
             MusicPlayerScreen()
         }
     }
